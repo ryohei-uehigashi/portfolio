@@ -1,6 +1,3 @@
-// PhotoSwipe
-initPhotoSwipeFromDOM('.my-gallery');
-
 $(function () {
 
   $('.card-caption').on('click', 'a', function (e) {

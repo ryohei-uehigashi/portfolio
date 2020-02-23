@@ -237,6 +237,21 @@ li {
   justify-content: space-between;
 }
 
+.works-card {
+  position: relative;
+  z-index: 1;
+}
+
+.works-link {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent:-999px;
+    z-index: 2;
+}
+
 .card-image img {
   width: 100%;
 }
@@ -496,6 +511,10 @@ li {
 
 #footer .navbar-foot {
   text-align: center;
+}
+
+#footer .navbar-foot a {
+  color: white;
 }
 
 #footer .navbar-foot li {
